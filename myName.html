@@ -42,7 +42,7 @@ mixpanel.init("2cba096283f86a8f7ec01f4c367170d1");
         }
         .qr{margin:20px 20px 0 0; }
         .pageBTH{
-        text-align: center;
+            text-align: center;
             display: table-cell;
             vertical-align: middle;
             background-color:#FFA500;
@@ -50,13 +50,15 @@ mixpanel.init("2cba096283f86a8f7ec01f4c367170d1");
     </style>
         </head>
 <body>
+	<div id="link_BTH">
+    <h2 class="pageBTH"><a href="index.html">Bang Tuan Hoan</a></h2>
+	</div>
 <div class="container">
         <div><canvas id="canvas"></canvas></div>
 </div>
     
 </body>
-    <h2 class="pageBTH"><a href="index.html">Bang Tuan Hoan</a></h2>
-	</div>
+	
         <script>
         function tick() {
             ctx.clearRect(0, 0, cw, ch),
